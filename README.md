@@ -19,5 +19,22 @@ The main idea of this model is a matching network that encodes the one-hop neigh
 ### Datasets
 Download datasets [Wiki-One](http://nlp.cs.ucsb.edu/data/wiki.tar.gz) or [NELL-One](http://nlp.cs.ucsb.edu/data/nell.tar.gz)
 
-### Training
+### Pre-trained embeddings
 
+
+### Training
+* With random initialized embeddings: ``CUDA_VISIBLE_DEVICES=0 python trainer.py --max_neighbor 50  --fine_tune``
+* With pretrained embeddings: ``CUDA_VISIBLE_DEVICES=0 python trainer.py --max_neighbor 50  --fine_tune --embed_model ComplEx``
+
+### Visualization
+``tensorboard --logdir logs``
+
+### Reference
+```
+@article{xiong2018one,
+  title={One-Shot Relational Learning for Knowledge Graphs},
+  author={Xiong, Wenhan and Yu, Mo and Chang, Shiyu and Guo, Xiaoxiao and Wang, William Yang},
+  journal={arXiv preprint arXiv:1808.09040},
+  year={2018}
+}
+```
