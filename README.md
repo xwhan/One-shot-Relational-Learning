@@ -17,9 +17,12 @@ The main idea of this model is a matching network that encodes the one-hop neigh
 * ``tqdm``
 
 ### Datasets
-Download datasets [Wiki-One](http://nlp.cs.ucsb.edu/data/wiki.tar.gz) or [NELL-One](http://nlp.cs.ucsb.edu/data/nell.tar.gz)
+* Download datasets [Wiki-One](http://nlp.cs.ucsb.edu/data/wiki.tar.gz) and [NELL-One](http://nlp.cs.ucsb.edu/data/nell.tar.gz)
+
 
 ### Pre-trained embeddings
+* [Wiki-One](http://nlp.cs.ucsb.edu/data/NELL/nell_emb.tar.gz)
+* [NELL-One](http://nlp.cs.ucsb.edu/data/Wiki/wiki_emb.tar.gz)
 
 
 ### Training
