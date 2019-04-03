@@ -34,10 +34,19 @@ The main idea of this model is a matching network that encodes the one-hop neigh
 
 ### Reference
 ```
-@article{xiong2018one,
-  title={One-Shot Relational Learning for Knowledge Graphs},
-  author={Xiong, Wenhan and Yu, Mo and Chang, Shiyu and Guo, Xiaoxiao and Wang, William Yang},
-  journal={arXiv preprint arXiv:1808.09040},
-  year={2018}
+@inproceedings{Xiong_Oneshot,
+  author    = {Wenhan Xiong and
+               Mo Yu and
+               Shiyu Chang and
+               Xiaoxiao Guo and
+               William Yang Wang},
+  title     = {One-Shot Relational Learning for Knowledge Graphs},
+  booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural
+               Language Processing, Brussels, Belgium, October 31 - November 4, 2018},
+  pages     = {1980--1990},
+  publisher = {Association for Computational Linguistics},
+  year      = {2018},
+  url       = {https://aclanthology.info/papers/D18-1223/d18-1223},
+  timestamp = {Sat, 27 Oct 2018 20:04:50 +0200},
 }
 ```
