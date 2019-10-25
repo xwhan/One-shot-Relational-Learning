@@ -21,8 +21,8 @@ The main idea of this model is a matching network that encodes the one-hop neigh
 
 
 ### Pre-trained embeddings
-* [Wiki-One](http://nlp.cs.ucsb.edu/data/NELL/nell_emb.tar.gz)
-* [NELL-One](http://nlp.cs.ucsb.edu/data/Wiki/wiki_emb.tar.gz)
+* [Wiki-One](https://drive.google.com/file/d/1_3HBJde2KVMhBgJeGN1-wyvW88gRU1iL/view?usp=sharing)
+* [NELL-One](https://drive.google.com/file/d/1XXvYpTSTyCnN-PBdUkWBXwXBI99Chbps/view?usp=sharing)
 
 
 ### Training
